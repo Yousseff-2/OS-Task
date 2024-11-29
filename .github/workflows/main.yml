@@ -9,5 +9,11 @@ jobs:
 
 
         steps:
-            - name: 'Test'
-              run: echo Youssef
+            - name: 'print content'
+              run: ls
+        
+            - uses: actions/checkout@v3
+            
+            - name: 'print content'
+              run: ls
+
